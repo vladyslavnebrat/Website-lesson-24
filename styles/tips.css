@@ -1,6 +1,5 @@
 .tips {
-  display: flex;
-  flex-direction: column;
+  margin-top: 8px;
 }
 
 .tip {
@@ -8,14 +7,14 @@
   border-bottom: 1px solid #e3e3e3;
 }
 
-.tips__subtitle {
+.tip__subtitle {
   font-weight: 700;
   font-size: 22px;
   line-height: 34px;
   color: #009b4d;
 }
 
-.tips__title {
+.tip__title {
   margin: 0;
   margin-top: 17px;
   font-weight: 700;
@@ -25,7 +24,7 @@
   color: #2b292d;
 }
 
-.tips__description {
+.tip__description {
   font-size: 24px;
   line-height: 34px;
   margin: 0;
@@ -40,11 +39,11 @@
   align-items: center;
 }
 
-.tips__image {
+.tip__image {
   margin-top: 30px;
 }
 
-.tips__image-caption {
+.tip__image-caption {
   font-size: 14px;
   line-height: 22px;
   text-align: center;
@@ -52,7 +51,6 @@
   margin-top: 19px;
   max-width: 100%;
 }
-
 
 @media screen and (min-width: 400px) {
   .tips {
