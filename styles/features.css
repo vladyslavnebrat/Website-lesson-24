@@ -1,93 +1,18 @@
-.features {
-  display: flex;
-  position: relative;
-}
+/* Error: Undefined mixin.
+ *   ,
+ * 7 | /   @include for-large-down {
+ * 8 | |     display: none;
+ * 9 | \   }
+ *   '
+ *   features.scss 7:3  root stylesheet */
 
-@media screen and (max-width: 399px) {
-  .features {
-    display: none;
-  }
-}
-
-.features__content {
-  width: 1140px;
-  margin: auto;
-  display: flex;
-}
-
-.features__column {
-  width: 459px;
-}
-
-.features__subtitle {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 34px;
-  color: #009b4d;
-}
-
-.features__title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 56px;
-  letter-spacing: -0.5px;
-  margin-top: 24px;
-  color: #2b292d;
-  margin-bottom: 0;
-}
-
-.features__description {
-  margin-top: 30px;
-  margin-bottom: 0;
-  font-size: 24px;
-  line-height: 34px;
-}
-
-.features__advantage-header {
-  line-height: 42px;
-  display: flex;
-  margin-top: 42px;
-}
-
-.features__advantage-title {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 26px;
-  color: #3142c6;
-  margin: 0;
-  margin-left: 15px;
-}
-
-.features__advantage-description {
-  font-size: 18px;
-  line-height: 26px;
-  margin-top: 8px;
-  margin-bottom: 0;
-  padding-bottom: 20px;
-  border-bottom: 3px solid #3142c6;
-}
-
-.features__advantage-item {
-  border-bottom: 1px solid #2b292d26;
-  margin-top: 21px;
-  padding-bottom: 22px;
-  display: flex;
-}
-
-.features__advantage-item-text {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 26px;
-  margin-left: 15px;
-}
-
-.features__left-decoration {
-  height: 166px;
-  position: absolute;
-  top: 258px;
-}
-
-.features__banner {
-  position: absolute;
-  right: 0;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a   \2577 \a 7 \2502  \250c    @include for-large-down {\a 8 \2502  \2502      display: none;\a 9 \2502  \2514    }\a   \2575 \a   features.scss 7:3  root stylesheet";
 }
