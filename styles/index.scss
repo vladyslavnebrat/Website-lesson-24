@@ -1,0 +1,33 @@
+@import "about.scss";
+@import "breakpoints.scss";
+@import "common.scss";
+@import "customers.scss";
+@import "features.scss";
+@import "footer.scss";
+@import "header.scss";
+@import "headline.scss";
+@import "tips.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  color: #2b292d;
+}
+
+.page {
+  width: 100%;
+}
+
+@media screen and (min-width: 400px) {
+  .page {
+    max-width: 1400px;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
