@@ -8,14 +8,12 @@
 .article:last-child {
   margin-top: 20px;
 }
-
 .article__title {
   font-weight: 700;
   font-size: 22px;
   line-height: 32px;
   margin: 0;
 }
-
 .article__text {
   font-size: 22px;
   line-height: 32px;
@@ -427,7 +425,7 @@
 .header__menu-icon {
   width: 18px;
   height: 13px;
-  background-image: url(../img/icon-hamburger.png);
+  background-image: url("img/icon-hamburger.png");
   display: inline-block;
 }
 
