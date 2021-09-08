@@ -4,9 +4,26 @@
   width: 100%;
   background-color: #F4F5F7;
 }
+@media screen and (min-width: 1400px) {
+  .about {
+    display: flex;
+    justify-content: space-between;
+    padding: 77px 131px 76px 130px;
+  }
+}
 
+@media screen and (min-width: 1400px) {
+  .article {
+    width: 555px;
+  }
+}
 .article:last-child {
   margin-top: 20px;
+}
+@media screen and (min-width: 1400px) {
+  .article:last-child {
+    margin-top: 0;
+  }
 }
 .article__title {
   font-weight: 700;
@@ -22,12 +39,6 @@
 }
 
 @media screen and (min-width: 400px) {
-  .about {
-    display: flex;
-    justify-content: space-between;
-    padding: 77px 131px 76px 130px;
-  }
-
   .article {
     width: 555px;
   }
