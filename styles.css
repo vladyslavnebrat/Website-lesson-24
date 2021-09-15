@@ -202,7 +202,7 @@
   font-size: 18px;
   width: 360px;
   margin-top: 26px;
-  color: rgba(43, 41, 45, 0.6);
+  color: #2b292d99;
 }
 @media screen and (min-width: 1400px) {
   .footer__description {
@@ -301,7 +301,7 @@
   list-style-type: none;
   font-size: 18px;
   line-height: 30px;
-  color: rgba(43, 41, 45, 0.6);
+  color: #2b292d99;
   padding: 0;
   margin: 0;
   margin-top: 18px;
@@ -335,7 +335,7 @@
 }
 .terms__items {
   text-decoration: none;
-  color: rgba(43, 41, 45, 0.6);
+  color: #2b292d99;
   margin-right: 22px;
 }
 
@@ -382,7 +382,7 @@
   font-size: 18px;
   line-height: 25px;
   text-align: center;
-  color: rgba(43, 41, 45, 0.6);
+  color: #2b292d99;
 }
 
 .header {
@@ -670,7 +670,7 @@
   font-size: 14px;
   line-height: 22px;
   text-align: center;
-  color: rgba(43, 41, 45, 0.6);
+  color: #2b292d99;
   margin-top: 19px;
   max-width: 100%;
 }
