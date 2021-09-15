@@ -9,7 +9,7 @@
         font-size: 18px;
         width: 360px;
         margin-top: 26px;
-        color: rgba(43, 41, 45, 0.6);
+        color: $text-color-light-grey;
 
         @include for-large-up {
             display: block;
@@ -108,7 +108,7 @@
         list-style-type: none;
         font-size: 18px;
         line-height: 30px;
-        color: rgba(43, 41, 45, 0.6);
+        color: $text-color-light-grey;
         padding: 0;
         margin: 0;
         margin-top: 18px;
@@ -141,7 +141,7 @@
 
     &__items {
         text-decoration: none;
-        color: rgba(43, 41, 45, 0.6);
+        color: $text-color-light-grey;
         margin-right: 22px;
     }
 }
@@ -191,6 +191,6 @@
         font-size: 18px;
         line-height: 25px;
         text-align: center;
-        color: rgba(43, 41, 45, 0.6);
+        color: $text-color-light-grey;
     }
 }
