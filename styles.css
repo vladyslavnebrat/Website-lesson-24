@@ -464,7 +464,7 @@
   margin-right: 0;
 }
 .navigation__arrow {
-  background-image: url(img/Arrow.png);
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
   display: inline-block;
   height: 5px;
   width: 8px;
