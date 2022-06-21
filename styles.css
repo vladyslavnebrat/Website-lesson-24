@@ -169,7 +169,7 @@
   border-bottom: 3px solid #3142c6;
 }
 .features__advantage-item {
-  border-bottom: 1px solid #2b292d26;
+  border-bottom: 1px solid rgba(43, 41, 45, 0.1490196078);
   margin-top: 21px;
   padding-bottom: 22px;
   display: flex;
@@ -201,7 +201,7 @@
   font-size: 18px;
   width: 360px;
   margin-top: 26px;
-  color: #2b292d99;
+  color: rgba(43, 41, 45, 0.6);
 }
 @media screen and (min-width: 1400px) {
   .footer__description {
@@ -301,7 +301,7 @@
   list-style-type: none;
   font-size: 18px;
   line-height: 30px;
-  color: #2b292d99;
+  color: rgba(43, 41, 45, 0.6);
   padding: 0;
   margin: 0;
   margin-top: 18px;
@@ -335,7 +335,7 @@
 }
 .terms__items {
   text-decoration: none;
-  color: #2b292d99;
+  color: rgba(43, 41, 45, 0.6);
   margin-right: 22px;
 }
 
@@ -382,7 +382,7 @@
   font-size: 18px;
   line-height: 25px;
   text-align: center;
-  color: #2b292d99;
+  color: rgba(43, 41, 45, 0.6);
 }
 
 .header {
@@ -414,7 +414,7 @@
   width: 58px;
   height: 100%;
   border: none;
-  border-left: 1px solid #00000026;
+  border-left: 1px solid rgba(0, 0, 0, 0.1490196078);
   margin-left: auto;
   background: transparent;
 }
@@ -670,7 +670,7 @@
   font-size: 14px;
   line-height: 22px;
   text-align: center;
-  color: #2b292d99;
+  color: rgba(43, 41, 45, 0.6);
   margin-top: 19px;
   max-width: 100%;
 }
@@ -730,7 +730,7 @@
 .order__email {
   margin-top: 40px;
   background: #ffffff;
-  border: 1px solid #2b292d33;
+  border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 2px;
   height: 48px;
   width: 100%;
@@ -765,10 +765,14 @@
 .order__terms {
   font-size: 14px;
   line-height: 22px;
-  color: #2b292d99;
+  color: rgba(43, 41, 45, 0.6);
 }
 .order__terms-link {
   color: #3142c6;
+}
+
+.audience-mobile {
+  display: flex;
 }
 
 * {
