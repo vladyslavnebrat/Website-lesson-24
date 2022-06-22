@@ -42,7 +42,7 @@
   color: #fff;
   width: 160px;
   height: 48px;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 18px;
   font-weight: 700;
   border-radius: 2px;
@@ -426,7 +426,7 @@
 .header__menu-icon {
   width: 18px;
   height: 13px;
-  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png');
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png");
   display: inline-block;
 }
 .header .logo__description {
@@ -589,7 +589,7 @@
   color: #3040c4;
   width: 158px;
   height: 48px;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 18px;
   font-weight: 700;
   border-radius: 2px;
@@ -771,7 +771,7 @@
   color: #3142c6;
 }
 
-.audinece {
+.audience {
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -782,44 +782,43 @@
   text-align: center;
   width: 100%;
 }
-.audinece__visitors {
+.audience__visitors {
   margin-bottom: 17px;
   font-size: 22px;
   line-height: 34px;
   font-weight: 700;
 }
 @media screen and (min-width: 1400px) {
-  .audinece__visitors {
+  .audience__visitors {
     width: 168px;
     margin-bottom: 24px;
   }
 }
-.audinece__understand {
+.audience__understand {
   margin-bottom: 18px;
   font-size: 40px;
   font-weight: 700;
   text-align: center;
 }
 @media screen and (min-width: 1400px) {
-  .audinece__understand {
+  .audience__understand {
     width: 555px;
     margin-bottom: 30px;
   }
 }
-.audinece__early-stage-company {
+.audience__early-stage-company {
   margin-bottom: 30px;
   text-align: center;
 }
 @media screen and (min-width: 1400px) {
-  .audinece__early-stage-company {
+  .audience__early-stage-company {
     margin-bottom: 34px;
     width: 555px;
   }
 }
-.audinece__get-started-button {
+.audience__get-started-button {
   background-color: #3040c4;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 2px;
   width: 100%;
   line-height: 48px;
@@ -827,51 +826,49 @@
   font-weight: 700;
 }
 @media screen and (min-width: 1400px) {
-  .audinece__get-started-button {
+  .audience__get-started-button {
     width: 160px;
     margin-right: 10px;
   }
 }
-.audinece__learn-more-button {
+.audience__learn-more-button {
   margin-top: 12px;
   background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 2px;
   width: 100%;
   line-height: 48px;
   font-weight: 700;
 }
 @media screen and (min-width: 1400px) {
-  .audinece__learn-more-button {
+  .audience__learn-more-button {
     margin-top: 0;
     width: 158px;
   }
 }
-.audinece__developers {
+.audience__developers {
   margin-top: 40px;
   width: 100%;
   height: 300px;
   background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
 }
 @media screen and (min-width: 1400px) {
-  .audinece__developers {
+  .audience__developers {
     margin-top: 15px;
   }
 }
-.audinece__developers-picture {
+.audience__developers-picture {
   margin: 22px 76px 22px 76px;
 }
-.audinece__developers-text {
+.audience__developers-text {
   margin-bottom: 33px;
   line-height: 28px;
   font-size: 22px;
   font-weight: 700;
 }
-.audinece__entertainment {
+.audience__entertainment {
   margin-top: 15px;
   width: 100%;
   height: 300px;
@@ -880,61 +877,59 @@
   border-radius: 8px;
 }
 @media screen and (min-width: 1400px) {
-  .audinece__entertainment {
+  .audience__entertainment {
     margin-left: 30px;
   }
 }
-.audinece__entertainment-picture {
+.audience__entertainment-picture {
   margin: 22px 74px 22px 74px;
 }
-.audinece__entertainment-text {
+.audience__entertainment-text {
   margin-bottom: 33px;
   line-height: 28px;
   font-size: 22px;
   font-weight: 700;
   color: #ffffff;
 }
-.audinece__athletes {
+.audience__athletes {
   margin-top: 15px;
   width: 100%;
   height: 300px;
   background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
 }
 @media screen and (min-width: 1400px) {
-  .audinece__athletes {
+  .audience__athletes {
     margin-left: 30px;
   }
 }
-.audinece__athletes-picture {
+.audience__athletes-picture {
   margin: 22px 65px 22px 65px;
 }
-.audinece__athletes-text {
+.audience__athletes-text {
   margin-bottom: 33px;
   line-height: 28px;
   font-size: 22px;
   font-weight: 700;
 }
-.audinece__creators {
+.audience__creators {
   margin-top: 15px;
   width: 100%;
   height: 300px;
   background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
 }
 @media screen and (min-width: 1400px) {
-  .audinece__creators {
+  .audience__creators {
     margin-left: 30px;
   }
 }
-.audinece__creators-picture {
+.audience__creators-picture {
   margin: 22px 100px 22px 81px;
 }
-.audinece__creators-text {
+.audience__creators-text {
   margin-left: 25px;
   margin-right: 53px;
   margin-bottom: 33px;
@@ -967,7 +962,7 @@
 
 html {
   font-size: 16px;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   color: #2b292d;
 }
 
