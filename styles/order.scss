@@ -35,7 +35,7 @@
     text-align: left;
     letter-spacing: -0.25px;
     margin-top: 40px;
-    color: #2b292d;
+    color: $color-dark;
   }
 
   &__text {
@@ -54,7 +54,7 @@
 
   &__email {
     margin-top: 40px;
-    background: #ffffff;
+    background: $white-color;
     border: 1px solid $border-color;
     border-radius: 2px;
     height: 48px;

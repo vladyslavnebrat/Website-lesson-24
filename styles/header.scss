@@ -62,7 +62,7 @@
   }
 
   &__item {
-    color: #2b292d;
+    color: $color-dark;
     text-decoration: none;
     line-height: 25px;
     font-size: 18px;
@@ -113,7 +113,7 @@
     @include for-large-up {
       font-size: 18px;
       line-height: 25px;
-      color: #2b292d;
+      color: $color-dark;
       opacity: 0.6;
     }
   }
@@ -126,10 +126,10 @@
 }
 
 .top-section {
-  background-color: #f3c6bd;
+  background-color: $top-section-background;
 
   @include for-large-up {
-    background-color: #f3c6bd;
+    background-color: $top-section-background;
     padding-top: 39px;
   }
 }
