@@ -1,7 +1,7 @@
 .about {
   padding: 46px 15px;
   width: 100%;
-  background-color: #F4F5F7;
+  background-color: #f4f5f7;
 }
 @media screen and (min-width: 1400px) {
   .about {
@@ -38,11 +38,11 @@
 }
 
 .action-button {
-  background-color: #3040C4;
+  background-color: #3040c4;
   color: #fff;
   width: 160px;
   height: 48px;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 18px;
   font-weight: 700;
   border-radius: 2px;
@@ -89,8 +89,8 @@
 .customers__item {
   height: 94px;
   min-width: 107px;
-  border-bottom: 1px solid #E3E3E3;
-  border-right: 1px solid #E3E3E3;
+  border-bottom: 1px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -426,7 +426,7 @@
 .header__menu-icon {
   width: 18px;
   height: 13px;
-  background-image: url("img/icon-hamburger.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png');
   display: inline-block;
 }
 .header .logo__description {
@@ -589,7 +589,7 @@
   color: #3040c4;
   width: 158px;
   height: 48px;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 18px;
   font-weight: 700;
   border-radius: 2px;
@@ -618,7 +618,7 @@
 }
 @media screen and (min-width: 1400px) {
   .headline__action-btn {
-    width: 100%;
+    width: 160px;
   }
 }
 
@@ -778,8 +778,9 @@
   align-items: center;
   padding: 50px 15px 50px 15px;
   color: #2b292d;
-  background-color: #00a1c6;
+  background-color: rgba(0, 161, 198, 0.3);
   text-align: center;
+  width: 100%;
 }
 .audinece__visitors {
   margin-bottom: 17px;
@@ -789,31 +790,36 @@
 }
 @media screen and (min-width: 1400px) {
   .audinece__visitors {
+    width: 168px;
     margin-bottom: 24px;
   }
 }
 .audinece__understand {
-  margin-top: 17px;
+  margin-bottom: 18px;
   font-size: 40px;
   font-weight: 700;
+  text-align: center;
 }
 @media screen and (min-width: 1400px) {
   .audinece__understand {
+    width: 555px;
     margin-bottom: 30px;
   }
 }
 .audinece__early-stage-company {
-  margin-top: 18px;
   margin-bottom: 30px;
+  text-align: center;
 }
 @media screen and (min-width: 1400px) {
   .audinece__early-stage-company {
     margin-bottom: 34px;
+    width: 555px;
   }
 }
 .audinece__get-started-button {
-  background-color: #3040C4;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  background-color: #3040c4;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 2px;
   width: 100%;
   line-height: 48px;
@@ -829,19 +835,32 @@
 .audinece__learn-more-button {
   margin-top: 12px;
   background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 2px;
   width: 100%;
   line-height: 48px;
   font-weight: 700;
+}
+@media screen and (min-width: 1400px) {
+  .audinece__learn-more-button {
+    margin-top: 0;
+    width: 158px;
+  }
 }
 .audinece__developers {
   margin-top: 40px;
   width: 100%;
   height: 300px;
   background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
+}
+@media screen and (min-width: 1400px) {
+  .audinece__developers {
+    margin-top: 15px;
+  }
 }
 .audinece__developers-picture {
   margin: 22px 76px 22px 76px;
@@ -856,9 +875,14 @@
   margin-top: 15px;
   width: 100%;
   height: 300px;
-  background-color: #3141C5;
+  background-color: #3141c5;
   box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
   border-radius: 8px;
+}
+@media screen and (min-width: 1400px) {
+  .audinece__entertainment {
+    margin-left: 30px;
+  }
 }
 .audinece__entertainment-picture {
   margin: 22px 74px 22px 74px;
@@ -875,8 +899,14 @@
   width: 100%;
   height: 300px;
   background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
+}
+@media screen and (min-width: 1400px) {
+  .audinece__athletes {
+    margin-left: 30px;
+  }
 }
 .audinece__athletes-picture {
   margin: 22px 65px 22px 65px;
@@ -892,8 +922,14 @@
   width: 100%;
   height: 300px;
   background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
+}
+@media screen and (min-width: 1400px) {
+  .audinece__creators {
+    margin-left: 30px;
+  }
 }
 .audinece__creators-picture {
   margin: 22px 100px 22px 81px;
@@ -910,7 +946,9 @@
 @media screen and (min-width: 1400px) {
   .container {
     display: flex;
+    flex-direction: column;
     margin: auto;
+    align-items: center;
   }
   .buttons-container {
     margin: auto;
@@ -929,7 +967,7 @@
 
 html {
   font-size: 16px;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: #2b292d;
 }
 

@@ -69,7 +69,7 @@
     color: #3040c4;
     width: 158px;
     height: 48px;
-    font-family: "Work Sans", sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 18px;
     font-weight: 700;
     border-radius: 2px;
@@ -98,7 +98,7 @@
 
   &__action-btn {
     @include for-large-up {
-      width: 100%;
+      width: 160px;
     }
   }
 }
