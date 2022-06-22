@@ -771,10 +771,126 @@
   color: #3142c6;
 }
 
-.audience-mobile {
+.audinece {
   display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  padding: 50px 15px 50px 15px;
+  color: #2b292d;
+  background-color: #00a1c6;
+  text-align: center;
+}
+.audinece__visitors {
+  margin-bottom: 17px;
+  font-size: 22px;
+  line-height: 34px;
+  font-weight: 700;
+}
+.audinece__understand {
+  margin-top: 17px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.audinece__early-stage-company {
+  margin-top: 18px;
+  margin-bottom: 30px;
+}
+.audinece__get-started-button {
+  background-color: #3040C4;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  width: 100%;
+  line-height: 48px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.audinece__learn-more-button {
+  margin-top: 12px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  width: 100%;
+  line-height: 48px;
+  font-weight: 700;
+}
+.audinece__developers {
+  margin-top: 40px;
+  width: 100%;
+  height: 300px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+.audinece__developers-picture {
+  margin: 22px 76px 22px 76px;
+}
+.audinece__developers-text {
+  margin-bottom: 33px;
+  line-height: 28px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.audinece__entertainment {
+  margin-top: 15px;
+  width: 100%;
+  height: 300px;
+  background-color: #3141C5;
+  box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
+  border-radius: 8px;
+}
+.audinece__entertainment-picture {
+  margin: 22px 74px 22px 74px;
+}
+.audinece__entertainment-text {
+  margin-bottom: 33px;
+  line-height: 28px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.audinece__athletes {
+  margin-top: 15px;
+  width: 100%;
+  height: 300px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+.audinece__athletes-picture {
+  margin: 22px 65px 22px 65px;
+}
+.audinece__athletes-text {
+  margin-bottom: 33px;
+  line-height: 28px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.audinece__creators {
+  margin-top: 15px;
+  width: 100%;
+  height: 300px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+.audinece__creators-picture {
+  margin: 22px 100px 22px 81px;
+}
+.audinece__creators-text {
+  margin-left: 25px;
+  margin-right: 53px;
+  margin-bottom: 33px;
+  line-height: 28px;
+  font-size: 22px;
+  font-weight: 700;
 }
 
+@media screen and (min-width: 1400px) {
+  audience__container {
+    display: flex;
+  }
+}
 * {
   box-sizing: border-box;
 }
