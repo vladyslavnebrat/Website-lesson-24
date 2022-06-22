@@ -787,14 +787,29 @@
   line-height: 34px;
   font-weight: 700;
 }
+@media screen and (min-width: 1400px) {
+  .audinece__visitors {
+    margin-bottom: 24px;
+  }
+}
 .audinece__understand {
   margin-top: 17px;
   font-size: 40px;
   font-weight: 700;
 }
+@media screen and (min-width: 1400px) {
+  .audinece__understand {
+    margin-bottom: 30px;
+  }
+}
 .audinece__early-stage-company {
   margin-top: 18px;
   margin-bottom: 30px;
+}
+@media screen and (min-width: 1400px) {
+  .audinece__early-stage-company {
+    margin-bottom: 34px;
+  }
 }
 .audinece__get-started-button {
   background-color: #3040C4;
@@ -804,6 +819,12 @@
   line-height: 48px;
   color: #ffffff;
   font-weight: 700;
+}
+@media screen and (min-width: 1400px) {
+  .audinece__get-started-button {
+    width: 160px;
+    margin-right: 10px;
+  }
 }
 .audinece__learn-more-button {
   margin-top: 12px;
@@ -887,8 +908,19 @@
 }
 
 @media screen and (min-width: 1400px) {
-  audience__container {
+  .container {
     display: flex;
+    margin: auto;
+  }
+  .buttons-container {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .audience-container {
+    display: flex;
+    flex-direction: row;
+    margin: 111px 131px 110px 130px;
   }
 }
 * {
